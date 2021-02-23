@@ -1,0 +1,14 @@
+Package: ONDRIdf
+Type: Package
+Title: An ONDRI data.frame package
+Version: 0.1.0.9000
+Authors@R: c(person("Derek","Beaton",role=c("aut","cre"),email="exposition.software@gmail.com"))
+Author: Derek Beaton [aut, cre]
+Maintainer: Derek Beaton <exposition.software@gmail.com>
+Description: A package strictly for ONDRI data/dictionary paired files, and to more easily navigate the MISSING codes
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: R (>= 3.5.0)
+Imports: haven, ondricolors, sticky, purrr
