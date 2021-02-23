@@ -3,7 +3,7 @@ ONDRIdf: A package made just for ONDRI’s data (and dictionary) files
 
 # ONDRIdf <img src='etc/ONDRIdf.png' align="right" height="139" />
 
-# Installation (via git.braincode)
+# Installation
 
 Before installing, you’ll need a few other packages:
 
