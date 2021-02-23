@@ -5,10 +5,20 @@ ONDRIdf: A package made just for ONDRI’s data (and dictionary) files
 
 # Installation (via git.braincode)
 
+Before installing, you’ll need a few other packages:
+
+``` r
+devtools::install_github(repo = "ondri-nibs/ondricolors")
+install.packages('sticky')
+install.packages('haven')
+install.packages('purrr')
+```
+
 Get the package from this ONDRI-NIBS github repository
 
 ``` r
 devtools::install_github(repo = "ondri-nibs/ONDRIdf")
+# or
 # remotes::install_github(repo = "ondri-nibs/ONDRIdf")
 ```
 
