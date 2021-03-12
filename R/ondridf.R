@@ -46,6 +46,8 @@ ONDRI_df <- function(DATA_file, DICTIONARY_file){
     stop("Unrecognized DICTIONARY format")
   }
 
+  ## now toupper DICT content
+  DICTIONARY[,"TYPE"] <- toupper(DICTIONARY[,"TYPE"])
   if(!all(DICTIONARY[,"TYPE"] %in% DATA_TYPES)){
     stop("Unrecognized TYPE in DICTIONARY file")
   }
